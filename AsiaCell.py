@@ -1,5 +1,6 @@
 import requests, sys, os, json
 
+os.system('pip install requests')
 method = sys.argv[1]
 
 def asiacell(method, data, headers):
